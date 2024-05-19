@@ -10,6 +10,8 @@ gem "rails", "~> 7.0.8", ">= 7.0.8.3"
 gem "sprockets-rails"
 
 gem "pg"
+gem "bulma-rails", "~> 1.0.0"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -68,3 +70,5 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "dartsass-rails", "~> 0.5.0"
