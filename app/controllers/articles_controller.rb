@@ -11,10 +11,6 @@ class ArticlesController < ApplicationController
   def show
   end
 
-  def show_profile
-    @user=current_user
-  end
-
   # GET /articles/new
   def new
     @article = Article.new
