@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: mango_dev
+  database: mango_api_dev
   pool: 5
   host: localhost
   username: ''
@@ -10,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: mango_test
+  database: mango_api_test
   pool: 5
   username: ''
   password: ''
