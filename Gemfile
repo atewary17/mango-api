@@ -80,3 +80,8 @@ gem "jsbundling-rails", "~> 1.3"
 gem 'simple_form'
 
 gem "devise", "~> 4.9"
+
+gem 'carrierwave', '~> 2.0'
+
+gem 'roo'
+

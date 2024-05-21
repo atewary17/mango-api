@@ -1,0 +1,4 @@
+<%= form_tag({ action: 'import' }, multipart: true) do %>
+  <%= file_field_tag :excel_file %>
+  <%= submit_tag "Import" %>
+<% end %>
