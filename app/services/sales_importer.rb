@@ -15,7 +15,7 @@ class SalesImporter
                 country: row['country'],
                 user_id: row['user_id'],
                 category: row['category'],
-                sale: row['sale']
+                sale: row['sales']
             )
          end
         rescue => e
