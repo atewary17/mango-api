@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
   get 'transaction/import_from'
   post 'transaction/import_from'
+
+  get 'transaction/filter'
+  post 'transaction/filter'
 end
