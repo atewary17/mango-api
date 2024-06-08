@@ -13,4 +13,7 @@ Rails.application.routes.draw do
 
   get 'transaction/filter'
   post 'transaction/filter'
+
+  get 'transaction/index'
+  post 'transaction/index'
 end

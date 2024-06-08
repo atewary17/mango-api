@@ -4,6 +4,12 @@ class TransactionController < ApplicationController\
         @user=current_user
     end
 
+    def index
+      user_id = params[:user_id]
+      @sales = Sale.all
+      @sales = @sales.where(user_id: user_id) if user_id.present?
+    end
+
     def import
         file = params[:excel_file]
         if file.present? && file.respond_to?(:read)
