@@ -85,3 +85,8 @@ gem 'carrierwave', '~> 2.0'
 
 gem 'roo'
 
+gem 'sidekiq'
+
+gem 'redis'
+
+gem 'sidekiq-cron'

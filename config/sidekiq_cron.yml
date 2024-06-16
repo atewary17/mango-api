@@ -1,0 +1,3 @@
+update_sales_field_job:
+  cron: "*/1 * * * *"   # Runs every minute
+  class: "UpdateSalesFieldJob"

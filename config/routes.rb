@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   resources :articles
   root "transaction#show_profile"
 
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
+
   get 'transaction/import'
   post 'transaction/import'
 

@@ -1,4 +1,5 @@
-class TransactionController < ApplicationController\
+class TransactionController < ApplicationController
+  before_action :authenticate_user!
     
     def show_profile
         @user=current_user
